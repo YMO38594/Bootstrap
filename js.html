@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <link rel="shortcut icon" href="static/images/23.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        body{
+            font-family: inherit;
+            text-align: center;
+            padding: 50px;
+            font-size: 25px;
+            background-color: wheat;
+
+        }
+        h1 {
+            display: inherit;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        p{
+            font-size: 30px;
+        }
+        h1:hover{
+            background-color: white;
+            color: black;
+        }
+        button{
+            padding: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #0a58ca;
+            color: white;
+            border: none;
+            border-radius: 10px;
+
+        }
+        button:hover{
+            background-color: #ffc720;
+            color: black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Script</title>
+</head>
+<body>
+
+<h1>Welcome to Java Script.</h1>
+<hr>
+<br>
+<p>Would you like to initialize the program.</p>
+<p>Warning, security access is restricted to Security Number:7765.</p>
+<button id="myButton">Initialize Program</button>
+
+<br><br><br><br>
+
+<i class="bi bi-facebook"></i>
+<i class="bi bi-youtube"></i>
+<i class="bi bi-instagram"></i>
+<i class="bi bi-envelope"></i>
+<i class="bi bi-twitter"></i>
+
+<script>
+    const button=document.getElementById('myButton')
+    button.addEventListener('click',function (){
+        alert('Welcome back Mr. Y_M_O. Java script will begin initializing the program.')
+
+    });
+</script>
+
+</body>
+</html>
